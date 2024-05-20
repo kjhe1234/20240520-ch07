@@ -8,4 +8,12 @@ public class Tiger_s extends Animal_s {
 		
 	}
 
+	@Override
+	public void cry() {
+		System.out.println("어흥.");
+		
+	}
+
+	
+	
 }

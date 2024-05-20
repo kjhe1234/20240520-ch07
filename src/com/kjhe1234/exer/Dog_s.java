@@ -5,7 +5,14 @@ public class Dog_s extends Animal_s {
 	
 	public void dogWorking() {
 		System.out.println("개가 걷는다.");
+	}
+
+	@Override
+	public void cry() {
+		System.out.println("멍멍.");
 		
 	}
 
+	
+	
 }

@@ -1,6 +1,6 @@
 package com.kjhe1234.exer;
 
-public class Animal_s {
+public abstract class Animal_s {
 	
 	String name;
 	int age;
@@ -10,4 +10,6 @@ public class Animal_s {
 		
 	}
 
+	public abstract void cry();
+	
 }
